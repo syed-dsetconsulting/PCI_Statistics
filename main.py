@@ -708,4 +708,4 @@ def update_dashboard(days, n):
 
 
 if __name__ == "__main__":
-    app.run(debug=True, threaded=False, use_reloader=False, host='0.0.0.0', port=8050)
+    app.run(debug=False, threaded=True, use_reloader=False, host='0.0.0.0', port=8050)
